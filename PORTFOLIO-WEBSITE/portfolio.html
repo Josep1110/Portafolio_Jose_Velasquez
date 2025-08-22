@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Portafolio</title>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-menu" id="nav-menu">
+            <ul class="nav-list">
+                <li class="nav-item grid">
+                    <a href="index.html" class="nav-link">
+                        <i class="ri-home-5-line nav-icon"></i>
+                        <h3 class="nav-name">Home</h3>
+                    </a>
+                </li>
+
+                 <li class="nav-item">
+                    <a href="about.html" class="nav-link">
+                        <i class="ri-user-3-line nav-icon"></i>
+                        <h3 class="nav-name">About</h3>
+                    </a>
+                </li>
+
+                 <li class="nav-item">
+                    <a href="portfolio.html" class="nav-link active-link">
+                        <i class="ri-folder-5-line nav-icon"></i>
+                        <h3 class="nav-name">Portfolio</h3>
+                    </a>
+                </li>
+
+                 <li class="nav-item">
+                    <a href="contact.html" class="nav-link">
+                        <i class="ri-mail-line nav-icon"></i>
+                        <h3 class="nav-name">Contact</h3>
+                    </a>
+                </li>
+            </ul> 
+
+            <i class="ri-close-line nav-close" id="nav-close"></i> 
+        </div>
+
+        <div class="nav-toggle" id="nav-toggle">
+            <i class="ri-menu-line"></i>
+        </div>
+    </nav>
+
+    <main class="main">
+
+        <section class="portfolio section">
+            <h2 class="section-title">Mi <span>Portafolio</span></h2>
+
+            <div class="portfolio-container container grid">
+                <article class="portfolio-card"></article>
+                <a href="https://github.com/Josep1110/curso_de_programacion_Jose_Velasquez/tree/2355f516e80a21ea6eb9cd51205924f01629cb63/Modulo_2/Proyecto%20Final%20(Calculadora)" class="portfolio-img-wrapper">
+                    <img src="assets/img/calc.jpg" alt="" class="portfolio-img">
+                </a>
+
+                <h3 class="portfolio-title">Calculadora Científica</h3>
+                <p class="portfolio-description">Calculadora científica totalmente funcional, programada con HTML, CSS y JavaScript.</p>
+
+                <div class="portfolio-skills">
+                    <img src="assets/img/html.jpg" alt="" class="portfolio-skill">
+                    <img src="assets/img/css.jpg" alt="" class="portfolio-skill">
+                    <img src="assets/img/js.jpg" alt="" class="portfolio-skill">
+                </div>
+
+                <a href="https://github.com/Josep1110/curso_de_programacion_Jose_Velasquez/tree/2355f516e80a21ea6eb9cd51205924f01629cb63/Modulo_2/Proyecto%20Final%20(Calculadora)" class="portfolio-link">
+                    <i class="ri-link link-icon"></i>
+                    Visitar proyecto</a>
+            </div>
+        </section>
+    </main>
+
+
+    <div class="style-switcher" id="style-switcher">
+        <div class="switcher-toggler" id="switcher-toggler">
+            <i class="ri-settings-line"></i>
+        </div>
+
+        <div class="theme-toggler" id="theme-toggler">
+            <i class="ri-sun-line" id="theme-icon"></i>
+        </div>
+
+        <h3 class="switcher-title">Style Switcher</h3>
+
+        <div class="switcher-items">
+            <img src="assets/img/icons8-orange-circle-48.png" alt="" class="theme-img" style="--hue:19"/>
+
+            <img src="assets/img/icons8-purple-circle-48.png" alt="" class="theme-img" style="--hue:271"/>
+
+            <img src="assets/img/icons8-blue-circle-48.png" alt="" class="theme-img" style="--hue:225"/>
+
+            <img src="assets/img/icons8-green-circle-48.png" alt="" class="theme-img" style="--hue:100"/>
+
+            <img src="assets/img/icons8-red-circle-48.png" alt="" class="theme-img" style="--hue:4"/>
+
+            <img src="assets/img/icons8-yellow-circle-48.png" alt="" class="theme-img" style="--hue:42"/>
+        </div>
+
+        <div class="switcher-close" id="switcher-close">&times;</div>
+    </div>
+
+
+
+   <script src="assets/js/main.js"></script> 
+</body>
+</html>
